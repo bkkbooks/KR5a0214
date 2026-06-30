@@ -1,0 +1,40 @@
+canonical_identifier: bkk:krp/KR5a0214/HFL/v1
+canonical_location: https://kanripo.org/bkk/KR5a0214/HFL/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+metadata:
+  title: 黃籙破獄燈儀
+  date: '2015-08-28 23:40:59.133943'
+  source:
+    repository: kanripo
+    path: KR5a0214
+  image_base_urls:
+    SJB: http://img.kanripo.org/daoist/ztdz/
+    CK-KZ: http://img.kanripo.org/daoist/dzjy/CK-KZ/
+    YP-C: http://img.kanripo.org/daoist/dzjy/JY-C/
+    HFL: http://img.kanripo.org/daoist/ztdz/
+    WYG: http://img.kanripo.org/general/skqs/wyg/
+  edition:
+    short: HFL
+    label: 【正統道藏・涵芬樓版】
+entity_encoding:
+  identifier: bkk:encoding/kanripo-pua-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+assets:
+  parts:
+  - {seq: 0, filename: KR5a0214_000-HFL.yaml, hash: 'sha256:bbb4c3e0fbf85a310db73b22b19fa866a3379c595a6c02b394e62a4b16d446b6'}
+  markers:
+  - {seq: 0, role: markers, filename: assets/KR5a0214_000-HFL.markers.yaml, hash: 'sha256:66285bb5b9913174f49dccdbebd657adb72b514280bdd79ee0b3cedbe75eb37e'}
+table_of_contents:
+- ref:
+    seq: 0
+    marker_id: KR5a0214_HFL_000-001a
+    span:
+    - body
+    - 0
+    - 2143
+  label: juan 000
+  type: section
+  level: 1
+hash: sha256:687063dc8a35c18800fe22005f2c4b0d31029f4f1d42154695cba84a8765e5f7
